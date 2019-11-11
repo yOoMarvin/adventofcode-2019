@@ -1,0 +1,22 @@
+{
+  "name": "adventofcode-2019",
+  "version": "1.0.0",
+  "description": "solutions for adventofcode 2010 powered by it lab sv informatik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/svi-lab.projekte/adventofcode-2019.git"
+  },
+  "keywords": [
+    "adventofcode"
+  ],
+  "author": "Marvin Messenzehl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues"
+  },
+  "homepage": "https://gitlab.com/svi-lab.projekte/adventofcode-2019#readme"
+}
