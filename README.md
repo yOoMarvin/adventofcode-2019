@@ -5,11 +5,19 @@ Im IT Lab wollen wir gemeinsam mit den Mitarbeitern der SVI den Advent of Code e
 Dieses Repository wird euch dabei helfen und einen Raum für Lösungen und Fragen bereitstellen
 
 ## Getting Started
-Alle Rätesel und genauen Anweisungen finden sich auf [AdventOfCode.com](https://adventofcode.com). Dort kannst du dich anmelden und in einer packenden Weihnachtsstory von Rätsel zu Rätsel hangeln!
+Alle Rätsel und genauen Anweisungen finden sich auf [AdventOfCode.com](https://adventofcode.com). Dort kannst du dich anmelden und in einer packenden Weihnachtsstory von Rätsel zu Rätsel hangeln!
 Für die besonders eifrigen gibt es sogar ein weltweites Leaderboard. Auf dieser Ausgangsseite findest du den kompletten Input für die Rätsel sowie die Abgabe der Lösungen.
 
 Die Rätsel kannst du mit jeder Programmiersprache oder einem Tool eurer Wahl absolvieren. Da gibt es kein richtig und falsch. Wichtig ist lediglich, dass die Lösung auf der Webseite akzeptiert wird.
 Wahlweise kann man sich einen eigenen Ordner für die Rätsel erstellen oder sogar ein Repository auf GitHub oder GitLab und seine Lösungen mit der Welt teilen! 
+
+Wir schnappen uns für die Lösungen unsere Lieblingssprache JavaScript und haben dieses Repository als node.js Anwendung angelegt. 
+Für jeden Tag haben wir hierfür einen separaten Ordner mit unserem Input und unseren Lösungen eingerichtet. Die Lösungen sollten allerdings allgemein sein und auf jeden Input anwendbar sein.
+Um den Code laufen zu lassen, navigiere einfach mit der Commandline zum jeweiligen Ordner und lasse das Skript mit 
+
+`node puzzle-01.js` 
+
+(oder einem anderen Programmname) laufen. Der jeweilige Output sollte auf der Console erscheinen
 
 ## Lösungen und Hilfen
 Manchmal kann das ganze wirklich knifflig werden! Und ein wenig Hilfe schadet niemandem! Ganz im Gegenteil, manchmal genügt schon ein Schups in die richtige Richtung und man bekommt einen Geistesblitz. In diesem Repository sammeln wir unsere Lösungen vom IT Lab Team. Wichtig ist jedoch, dass es kein Richtig und kein Falsch gibt! Es gibt wahrscheinlich 1000 verschiedene Wege ein Rätsel zu lösen.
