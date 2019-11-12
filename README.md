@@ -41,3 +41,7 @@ Als kleinen Bonus gibt es zum Abschluss noch eine kleine Weihnachtsfeier <3
 * [Subreddit](https://www.reddit.com/r/adventofcode)
 * [Offizielle Webseite](https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues)
 * [Issue Sammlung](https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues)
+
+
+### Disclaimer
+**Da dieses Repository öffentlich ist sind jegliche Kommentare und Aktivitäten öffentlich einsehbar.**
