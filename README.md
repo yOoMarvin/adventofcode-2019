@@ -26,7 +26,7 @@ Eine weitere super Quelle ist der [Reddit Sammelthread](https://www.reddit.com/r
 
 ## Fragen und Diskutieren
 Das wichtigste und beste am AoC ist natürlich wenn das komplette Event zusammen macht!Dazu gehört natürlich auch das Stellen von Fragen und das Diskutieren. 
-Anlaufpunkt Nummero 1 ist dabei dieses Repository! Im [Issue Bereich](https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues) kannst du jede erdenkliche Frage zum AoC stellen, nach Hilfe fragen oder deine Lösungen teilen. 
+Anlaufpunkt Nummero 1 ist dabei dieses Repository! Im [Issue Bereich](https://gitlab.com/it-lab-public/adventofcode-2019/issues) kannst du jede erdenkliche Frage zum AoC stellen, nach Hilfe fragen oder deine Lösungen teilen. 
 Wir sind am Start und freuen uns dir zu helfen oder mit dir in Austausch zu kommen!
 
 Außerdem haben wir auf unserem Unternehmensblog einen Sammelthread angelegt in dem wir nochmal diese komplette Anleitung gepostet haben und eine Möglichkeit zum Fragen Stellen angelegt haben.
@@ -39,8 +39,8 @@ Als kleinen Bonus gibt es zum Abschluss noch eine kleine Weihnachtsfeier <3
 
 ## Shortlink
 * [Subreddit](https://www.reddit.com/r/adventofcode)
-* [Offizielle Webseite](https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues)
-* [Issue Sammlung](https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues)
+* [Offizielle Webseite](https://adventofcode.com)
+* [Issue Sammlung](https://gitlab.com/it-lab-public/adventofcode-2019/issues)
 
 
 ### Disclaimer
