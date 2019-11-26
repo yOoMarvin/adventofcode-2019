@@ -35,7 +35,7 @@ Außerdem kannst du dich jederzeit an unser [Gruppenpostfach](mailto:it-lab@sv-i
 ## Hack Together
 Neben der Online Community und dem Austausch gibt es auch noch 3 verschiedene Offline Events an jedem Standort. Haltet dafür die Augen im IT Lab Newsletter und auf unserer Sharepoint Seite offen.
 Wir treffen uns an jedem Standort und hacken zusammen an den Rätseln! In einem 3-stündigen Zeitfenster kann jeder dazu kommen und mit uns hacken. Wir freuen uns richtig drauf!
-Als kleinen Bonus gibt es zum Abschluss noch eine kleine Weihnachtsfeier <3
+Als kleinen Bonus gibt es zum Abschluss noch eine kleine Weihnachtsfeier inklusive Weihnachtsmarkt! <3
 
 ## Shortlink
 * [Subreddit](https://www.reddit.com/r/adventofcode)
