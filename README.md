@@ -17,7 +17,7 @@ Um den Code laufen zu lassen, navigiere einfach mit der Commandline zum jeweilig
 
 `node puzzle-01.js` 
 
-(oder einem anderen Programmname) laufen. Der jeweilige Output sollte auf der Console erscheinen
+(oder einem anderen Programmname) laufen. Der jeweilige Output sollte auf der Console erscheinen.
 
 ## Lösungen und Hilfen
 Manchmal kann das ganze wirklich knifflig werden! Und ein wenig Hilfe schadet niemandem! Ganz im Gegenteil, manchmal genügt schon ein Schups in die richtige Richtung und man bekommt einen Geistesblitz. In diesem Repository sammeln wir unsere Lösungen vom IT Lab Team. Wichtig ist jedoch, dass es kein Richtig und kein Falsch gibt! Es gibt wahrscheinlich 1000 verschiedene Wege ein Rätsel zu lösen.
