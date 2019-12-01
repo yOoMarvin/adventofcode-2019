@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://gitlab.com/svi-lab.projekte/adventofcode-2019/issues"
   },
-  "homepage": "https://gitlab.com/svi-lab.projekte/adventofcode-2019#readme"
+  "homepage": "https://gitlab.com/svi-lab.projekte/adventofcode-2019#readme",
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
 }
