@@ -2,7 +2,7 @@ const fs = require("fs");
 
 // intcode computer as class
 // copied this from the internets because i don't want to write it again 🤷‍♂️😂
-class computer {
+class Computer {
   constructor(filename, pausecount) {
     var data = fs
       .readFileSync(filename)
@@ -160,4 +160,4 @@ class computer {
   }
 }
 
-module.exports = computer;
+module.exports = Computer;

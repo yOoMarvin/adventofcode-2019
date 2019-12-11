@@ -4,6 +4,10 @@ const Panel = require("./Panel");
 let result, computer;
 let robotx = 0,
   roboty = 0;
+let minx = 0,
+  maxx = 0,
+  miny = 0,
+  maxy = 0;
 let direction = "u",
   todo = [];
 let panels = [];
@@ -22,6 +26,9 @@ while (!computer.done) {
     panels.push(new Panel(robotx, roboty));
     visited.push(coords);
     ix = visited.length - 1;
+    if (ix == 0) {
+      panels[ix].Paint(1);
+    }
   }
   todo = computer.run([panels[ix].color]);
   panels[ix].Paint(todo[0]);
@@ -51,18 +58,46 @@ while (!computer.done) {
   switch (direction) {
     case "u":
       roboty++;
+      if (roboty > maxy) {
+        maxy = roboty;
+      }
       break;
     case "l":
       robotx--;
+      if (robotx < minx) {
+        minx = robotx;
+      }
       break;
     case "d":
       roboty--;
+      if (roboty < miny) {
+        miny = roboty;
+      }
       break;
     case "r":
       robotx++;
+      if (robotx > maxx) {
+        maxx = robotx;
+      }
       break;
   }
 }
 
-result = visited.length;
-console.log("PART 1: " + result);
+result = "";
+for (a = maxy; a >= miny; a--) {
+  for (b = minx; b <= maxx; b++) {
+    coords = b.toString() + "," + a.toString();
+    ix = visited.indexOf(coords);
+    if (ix == -1) {
+      result += " ";
+    } else {
+      if (panels[ix].color == 0) {
+        result += " ";
+      } else {
+        result += "█";
+      }
+    }
+  }
+  result += "\n";
+}
+console.log(result);
