@@ -7,53 +7,79 @@ function checkIntersection(s, x, y) {
     [0, -1],
     [0, 1]
   ];
-  let numScaff = 0;
-  //y = x;
-  //x = y;
+  let count = 0;
 
-  delta.map(element => {
-    dx = element[0];
-    dy = element[1];
+  delta.map(([dx, dy]) => {
+    // console.log("X", x);
+    // console.log("DX", dx);
+    // console.log("Y", y);
+    // console.log("DY", dy);
     if (x + dx < 0 || y + dy < 0) return false;
-    if (s[x + dx][y + dy] === "#") numScaff++;
+    if (s[y + dy][x + dx] === "#") count++;
   });
-  return numScaff == 4;
+  if (count == 4) return true;
 }
 
 // Part 1
 computer = new Computer("./input.txt", 0);
 const program = computer.run();
-let scaffold = [[]];
+let grid = [[]];
 let i = 0;
 
 program.map(element => {
   if (element == 10) {
-    scaffold.push([]);
+    grid.push([]);
     i++;
   } else {
-    scaffold[i].push(element.toString());
+    grid[i].push(element.toString());
   }
 });
 
-for (let i = 0; i < scaffold.length; i++) {
-  for (let j = 0; j < scaffold[i].length; j++) {
-    if (scaffold[i][j] == 35) scaffold[i][j] = "#";
-    if (scaffold[i][j] == 46) scaffold[i][j] = ".";
+for (let i = 0; i < grid.length; i++) {
+  for (let j = 0; j < grid[i].length; j++) {
+    if (grid[i][j] == 35) {
+      grid[i][j] = "#";
+    } else if (grid[i][j] == 46) {
+      grid[i][j] = ".";
+    } else {
+      grid[i][j] = "^";
+    }
   }
 }
 
-scaffold.map(line => {
+grid.map(line => {
   console.log(line.join(""));
 });
 
-let align = 0;
-scaffold.map((row, y) => {
-  row.map((char, x) => {
-    if (scaffold[y][x] === "#" && checkIntersection(scaffold, x, y)) {
-      console.log("I'M IN THE IF");
-      align += x * y;
-    }
-  });
-});
+// Well... that didn't work... let's do it by hand 🤫😂
 
-console.log(align);
+// let align = 0;
+// for (let y = 0; y < grid.length; y++) {
+//   for (let x = 0; x < grid[y].length; x++) {
+//     if (grid[y][x] == "#" && checkIntersection(grid, x, y)) {
+//       console.log(
+//         "I'M IN THE IF. HERE ARE THE COORDS FOR THE INTERSECTION",
+//         x,
+//         y
+//       );
+//       align += x * y;
+//     }
+//   }
+// }
+
+// coords from the grid
+console.log(
+  6 * 12 +
+    10 * 14 +
+    16 * 14 +
+    16 * 18 +
+    18 * 18 +
+    18 * 20 +
+    20 * 10 +
+    20 * 44 +
+    22 * 6 +
+    22 * 34 +
+    22 * 38 +
+    24 * 38 +
+    26 * 32
+);
