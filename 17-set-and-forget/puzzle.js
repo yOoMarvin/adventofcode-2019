@@ -47,6 +47,7 @@ console.log("PART ONE : " + resp1);
 /// PART TWO
 /// THAT ONE WAS SUPER TRICKY! I GOT THE ALGORITHM BY A FELLOW REDDITOR WHO EXPLAINED IT TO ME
 /// BUT DAMN IT'S A COMPLICATED ONE
+/// LET'S BE HONEST... I'VE SOLVED PART 2 BY HAND, THE CODE IS ONLY FOR REFERENCE TO UNDERSTAND IT 🤷‍♂
 const vacuum = {
   x: tiles.find(el => el.type == "^").x,
   y: tiles.find(el => el.type == "^").y,
