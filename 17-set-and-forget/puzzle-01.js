@@ -67,7 +67,7 @@ grid.map(line => {
 //   }
 // }
 
-// coords from the grid
+// coords from the grid... see robot.txt
 console.log(
   6 * 12 +
     10 * 14 +

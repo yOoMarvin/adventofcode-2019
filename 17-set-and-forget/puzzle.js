@@ -5,6 +5,10 @@ let data = read
   .split(",")
   .map(Number);
 
+// OK GUYS... WE REALLY NEED TO FIGURE OUT HOW THIS WORKS
+// THAT'S WHY I'VE REWRITTEN DEN INTCODE COMPUTER AND UPDATED MY CODE FOR DAY 17
+// HAVE FUN! 🎊
+
 function Tile(x, y, type) {
   this.x = x;
   this.y = y;
@@ -41,7 +45,8 @@ scaff.forEach(function(el) {
 console.log("PART ONE : " + resp1);
 
 /// PART TWO
-
+/// THAT ONE WAS SUPER TRICKY! I GOT THE ALGORITHM BY A FELLOW REDDITOR WHO EXPLAINED IT TO ME
+/// BUT DAMN IT'S A COMPLICATED ONE
 const vacuum = {
   x: tiles.find(el => el.type == "^").x,
   y: tiles.find(el => el.type == "^").y,
