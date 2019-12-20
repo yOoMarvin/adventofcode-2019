@@ -20,6 +20,11 @@
   },
   "homepage": "https://gitlab.com/svi-lab.projekte/adventofcode-2019#readme",
   "devDependencies": {
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.21",
+    "chalk": "^3.0.0"
   }
 }
